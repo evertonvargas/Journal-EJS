@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    background: #dfdede;
+    padding: 30px;
+}
+
+.header{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    list-style: none;
+}
+
+.header li+li{
+ margin-left: 30px;
+}
+
+.header a {
+    color: rgb(114, 113, 113);
+    font-size: 25px;
+}
+
+.header li a{
+    font-size: 20px;
+}
+
+.header li a:hover{
+    color: #1abc9c;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper-h1{
+    margin: 20px 0;
+}
+
+#compose label{
+    font-weight: bold;
+}
+#compose input{
+    font-size: 19px;
+    letter-spacing: 0.9px;
+}
+
+#compose textarea, #compose input{
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+
+#compose textarea{
+    min-height: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#compose textarea:focus, #compose input:focus{
+    border: 2px solid #1abc9c;
+    outline: 0;
+}
+
+#compose button{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #08dbca;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #1abc9c;
+}
+
+footer p{
+    padding: 20px;
+    color: #fff;
+}
+
+

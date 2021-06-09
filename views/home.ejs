@@ -1,0 +1,10 @@
+<%- include('partials/header'); -%>
+<section class="wrapper">
+  <h1 class="wrapper-h1">Home</h1>
+  <p><%= homeContent %></p>
+  <% for(let item of postsContent){%>
+    <h1 class="wrapper-h1"><%=item.title%></h1>
+    <p><%= item.content.slice(0,100)+"..." %> <a href="posts/<%=item.title%>">Read me</a> </p>
+  <%}%> 
+</section>
+<%- include('partials/footer'); -%>
